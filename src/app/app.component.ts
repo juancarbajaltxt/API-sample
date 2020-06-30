@@ -8,12 +8,7 @@ import { HttpClient } from '@angular/common/http'
 })
 export class AppComponent {
   title = 'openweather';
-
-  // variables that will hold server data 
-  // cities rated best global cities one color 
-  // cities rated destinations for 2026 world cup another color
-  // cities for both (only a couple) a different color
-  // legend
+  
   houston_data;
   la_data;
 
