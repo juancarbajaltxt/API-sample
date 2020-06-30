@@ -22,7 +22,7 @@ export class AppComponent {
     // los angeles
     this.http.get('https://api.openweathermap.org/data/2.5/weather?id=5368361&units=imperial&APPID=4e28d51992b0332264a6fdc6011d6d71')
     .subscribe((la_data) => {
-      console.log(la_data);
+      console.log(la_data, "x");
       this.la_data = la_data;
     }, (err) => {console.log(err);
     })
